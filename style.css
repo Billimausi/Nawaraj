@@ -168,3 +168,115 @@ button{
 .s1ProductDetails {
     font-size: larger;
 }
+
+/* Card Container*/
+.ecard{
+    display:flex;
+    margin-left: 115px;
+    justify-content: center;
+
+}
+.card {
+    background-color: rgb(74, 33, 33);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform o.3s ease;
+    margin: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;    
+}
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.product-description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+}
+.buy-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.buy-button :hover {
+    background-color: rgb(125, 125, 243);
+}
+
+.viewmore {
+    text-align: center;
+    margin: 20px;
+}
+.viewmore {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.viewmore a:hover {
+    color: rgb(38, 38, 39);
+    background-color: rgb(172, 175, 248);
+}
+
+.viewmore a:hover {
+    color: rgb(38, 38, 39);
+}
+
+.ecard1 {
+    display: flex;
+    margin-left: 115px;
+    justify-content: center;
+}
+
+
+/* footer section */
+.footer {
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer h4 {
+    margin-bottom: 15px;    
+}
+
+.inc {
+    background-color: white;
+    border-radius: 100px;
+}
+
+.footer2 p a{
+    color: rgb(253, 253, 253);
+}
+.pro h1{
+ text-align: center;
+ font-size: 1.5rem;
+}
+/* Contact us page css */
+
