@@ -1,33 +1,100 @@
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Form</title>
-       
-</head>
-<body>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+    
+        <header>
+            <nav class="nav">
+                <ul class="nav_ul">
+                    <li class="nav_li1">
+                        <a href="/" class="nav-link"></a>
+                        <img 
+                        src="./img/logo.png" 
+                        alt="Navlogo" 
+                        class="nav logo"height="50"
+                        />
+                    </a>
+                </li>
+                     <li class="nav_li2"><a href="./index.html">Home</a></li>   
+                     <li class="nav_li3"><a href="./product.html">Product</a></li>
+                     <li class="navli4"><a href="./contact.html">Contact</a></li>
+                     <li class="navli5"><a href="./about.html">About</a></li>
+                     <li class="search nav_li6"><img src="./Images/search.png" alt="search" class="search" height="22"/>
+                   <input type="text" name="search" id="search"/> 
+                </li>
+                <li class="btn nav_li7 sigin">
+                    <a href="signup.html">Signup</a>
+                </li>
+                <li class="btn nav_li8 login">
+                    <a href="./login.html">login</a>
+                </li>      
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-<div class="container">
-    <h2>Signup Form</h2>
-    <form action="/signup" method="post">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
+            <div class="contactmain">
+            <div class="contactmsg">
+                <form class="contactform">
+                    <h1 class="contacttitle"><u>SignUp</u></h1>
+                    <input type="text" name="name" class="inputs" placeholder="Enter your Full Name" required>
+                    <input type="email" name="email" class="inputs" placeholder="Your Email" required>
+                    <input type="number" name="number" class="inputs" placeholder="Your Phone Number" required>
+                    <input type="password" name="password" class="inputs" placeholder="Create Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    <input type="password" name="rep" class="inputs" placeholder="Repeat your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    <button class="btnsmt" type="submit">SignUp</button>
+                    <p>Already have an accuont? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+            </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+            <footer>
+                <div class="footer">
+                    <div class="footer1">
+                        <h4>HELP</h4>
+                        <p>Support us</p>
+                        <p>FAQ's</p>
+                        <p>Terms and Condition</p>
+                        <p>Privacy policy</p>
+                    </div>
+                    <div class="footer2">
+                        <h4>COMPANY</h4>
+                        <p><a href="/" >Home</a></p>
+                        <p><a href="/contact.html">Contact</a></p>
+                        <p><a href="/product.html">Product</a></p>
+                        <p><a href="/about.html">About</a></p>
+                    </div>
+                    <div class="footer3">
+                        <h4>Social Media</h4>
+                        <div class="footer1" style="padding-bottom: 15px;">
+                            <img
+                               class="icn icnFb"
+                               src="./Images/facebook-logo.png"
+                               height="25"
+                               alt="facebook"
+                               />
+                            <img
+                               class="icn icnIg"
+                               src="./Images/instagram-logo.png"
+                               height="25"
+                               alt="instagram"
+                               />
+                            <img
+                               class="icn icnTw"
+                               src="./Images/twitter-logo.png"
+                               height="25"
+                               alt="twitter"
+                               />   
+                    </div>
+                    <div class="ftr2">
+                        <img src="./Images/logo.png" height="40" alt="footer logo"/>
+                    </div>
+            </footer>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="confirm_password">Confirm Password</label>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-
-        <input type="submit" value="Signup">
-    </form>
-</div>
-
-</body>
+    </body>
 </html>
