@@ -161,6 +161,37 @@ button{
     align-items: flex-start;
     gap: 2rem;
 }
+.carousel {
+    position: relative;
+    text-align: center; 
+  }
+
+  .carousel-controls {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* justify-content: space-between; */
+    width: 30%;
+    
+  }
+  
+  .carousel-btn {
+    background-color: rgba(75, 71, 71, 0.582);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    margin: 100px;
+    margin-left: 0px;
+  }
+  
+  .carousel-btn:hover {
+    background-color: rgba(255, 255, 255, 0.233);
+  }
 .carousel-controls .carousel-btn{
     color: white;
 }
